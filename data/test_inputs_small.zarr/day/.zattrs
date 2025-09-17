@@ -1,0 +1,7 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "day"
+    ],
+    "calendar": "proleptic_gregorian",
+    "units": "hours since 1900-01-01"
+}

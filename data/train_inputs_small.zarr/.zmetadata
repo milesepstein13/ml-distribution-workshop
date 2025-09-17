@@ -1,0 +1,605 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "10m_u_component_of_wind/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "10m_u_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "10m_v_component_of_wind/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "10m_v_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "2m_dewpoint_temperature/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "2m_dewpoint_temperature/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "2m_temperature/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "2m_temperature/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "day/.zarray": {
+            "chunks": [
+                67706
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                332
+            ],
+            "zarr_format": 2
+        },
+        "day/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "day"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "hours since 1900-01-01"
+        },
+        "geopotential/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "geopotential/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "geopotential_at_surface/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "geopotential_at_surface/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                721
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ],
+            "long_name": "latitude",
+            "units": "degrees_north"
+        },
+        "level/.zarray": {
+            "chunks": [
+                37
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5
+            ],
+            "zarr_format": 2
+        },
+        "level/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level"
+            ],
+            "long_name": "level",
+            "units": "Hectopascal(hPa)"
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                1440
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                21
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ],
+            "long_name": "longitude",
+            "units": "degrees_east"
+        },
+        "potential_vorticity/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "potential_vorticity/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "specific_humidity/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "specific_humidity/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "temperature/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "temperature/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "toa_incident_solar_radiation/.zarray": {
+            "chunks": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "toa_incident_solar_radiation/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "tod/.zarray": {
+            "chunks": [
+                67706
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4
+            ],
+            "zarr_format": 2
+        },
+        "tod/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "tod"
+            ]
+        },
+        "u_component_of_wind/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "u_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "v_component_of_wind/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "v_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        },
+        "vertical_velocity/.zarray": {
+            "chunks": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                5,
+                16,
+                21,
+                332,
+                4
+            ],
+            "zarr_format": 2
+        },
+        "vertical_velocity/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level",
+                "latitude",
+                "longitude",
+                "day",
+                "tod"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}

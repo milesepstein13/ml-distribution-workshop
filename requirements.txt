@@ -1,0 +1,6 @@
+numpy>=1.26
+pandas>=2.0
+xarray>=2023.1
+matplotlib>=3.8
+scipy>=1.11
+torch>=2.2
